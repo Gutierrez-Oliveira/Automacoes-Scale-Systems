@@ -11,13 +11,13 @@ Test Teardown   Close Session
 Efetuar compra de divis do GAME ZERO usando boleto
     Get Login
 
-    Swipe                       499    1616    540    102
+    Swipe                       549    1564    534    146
     Sleep                       1
-    Swipe                       529    1570    564    100
+    Swipe                       531    1544    499    213
     Sleep                       1
-    Swipe                       536    1307    540    102
+    Swipe                       486    1598    475    137
     Sleep                       1
-    Swipe                       536    1307    540    602
+    Swipe                       531    1544    499    210
     Click Text                  O novo game está chegando!
 
     Get Boleto 
@@ -26,13 +26,13 @@ Efetuar compra de divis do GAME ZERO usando boleto
 Efetuar compra de divis do GAME ZERO usando cartão de crédito
     Get Login
 
-    Swipe                       499    1616    540    102
+    Swipe                       549    1564    534    146
     Sleep                       1
-    Swipe                       529    1570    564    100
+    Swipe                       531    1544    499    213
     Sleep                       1
-    Swipe                       536    1307    540    232
+    Swipe                       486    1598    475    137
     Sleep                       1
-    Swipe                       536    1307    540    602
+    Swipe                       531    1544    499    210
     Click Text                  O novo game está chegando!
 
     Get Cartao
@@ -40,13 +40,13 @@ Efetuar compra de divis do GAME ZERO usando cartão de crédito
 Efetuar compra de divis do GAME ZERO usando saldo em carteira
     Get Login
 
-    Swipe                       499    1616    540    102
+    Swipe                       549    1564    534    146
     Sleep                       1
-    Swipe                       529    1570    564    100
+    Swipe                       531    1544    499    213
     Sleep                       1
-    Swipe                       536    1307    540    232
+    Swipe                       486    1598    475    137
     Sleep                       1
-    Swipe                       536    1307    540    602
+    Swipe                       531    1544    499    210
     Click Text                  O novo game está chegando!
 
     Get Saldo
@@ -63,7 +63,7 @@ Efetuar compra de divis do METAFORANDO usando boleto
     Sleep                       1
     Swipe                       538    1443    559    203
     Sleep                       1
-    Swipe                       557    1363    551    306
+    Swipe                       557    1363    551    406
     Click Text                  Vitor Santos - saiba mais!
     Get Boleto
     
@@ -74,7 +74,7 @@ Efetuar compra de divis do METAFORANDO usando cartão de crédito
     Sleep                       1
     Swipe                       538    1443    559    203
     Sleep                       1
-    Swipe                       557    1363    551    306
+    Swipe                       557    1363    551    406
     Click Text                  Vitor Santos - saiba mais!
     Get Cartao
 
@@ -85,7 +85,7 @@ Efetuar compra de divis do METAFORANDO usando saldo na carteira
     Sleep                       1
     Swipe                       538    1443    559    203
     Sleep                       1
-    Swipe                       557    1363    551    306
+    Swipe                       557    1363    551    406
     Click Text                  Vitor Santos - saiba mais!
     Get Saldo
 
@@ -98,9 +98,9 @@ Efetuar compra de divis do MUSIC usando boleto
     Sleep                       1
     Swipe                       536    1307    540    232
     Sleep                       1
-    Swipe                       536    1307    540    552
+    Swipe                       536    1307    540    302
     Sleep                       1
-    Swipe                       536    1307    540    602
+    Swipe                       536    1307    540    152
     Click Text                  Invista nos novos hits!
     Get Boleto
     
@@ -113,9 +113,9 @@ Efetuar compra de divis do MUSIC usando cartão de crédito
     Sleep                       1
     Swipe                       536    1307    540    232
     Sleep                       1
-    Swipe                       536    1307    540    602
+    Swipe                       536    1307    540    302
     Sleep                       1
-    Swipe                       536    1307    540    652
+    Swipe                       536    1307    540    152
     Click Text                  Invista nos novos hits!
     Get Cartao
 
@@ -128,9 +128,9 @@ Efetuar compra de divis do MUSIC usando saldo em carteira
     Sleep                       1
     Swipe                       536    1307    540    232
     Sleep                       1
-    Swipe                       536    1307    540    602
+    Swipe                       536    1307    540    302
     Sleep                       1
-    Swipe                       536    1307    540    652    
+    Swipe                       536    1307    540    152    
     Click Text                  Invista nos novos hits!
     Get Saldo
 
@@ -152,9 +152,11 @@ Efetuar compra de divis do MEGAGIG usando boleto
     Sleep                       1
     Swipe                       536    1307    540    232
     Sleep                       1
-    Swipe                       536    1307    540    402
+    Swipe                       536    1307    540    102
     Sleep                       1
-    Swipe                       536    1307    540    152  
+    Swipe                       536    1307    540    152
+    Sleep                       1
+    Swipe                       536    1307    540    352
     Click Text                  Quer ser sócio do MegaGig?
     Get Boleto
     
@@ -167,9 +169,11 @@ Efetuar compra de divis do MEGAGIG usando cartão de crédito
     Sleep                       1
     Swipe                       536    1307    540    232
     Sleep                       1
-    Swipe                       536    1307    540    402
+    Swipe                       536    1307    540    102
     Sleep                       1
-    Swipe                       536    1307    540    152  
+    Swipe                       536    1307    540    152
+    Sleep                       1
+    Swipe                       536    1307    540    352
     Click Text                  Quer ser sócio do MegaGig?
     Get Cartao
 
@@ -182,9 +186,11 @@ Efetuar compra de divis do MEGAGIG usando saldo em carteira
     Sleep                       1
     Swipe                       536    1307    540    232
     Sleep                       1
-    Swipe                       536    1307    540    402
+    Swipe                       536    1307    540    102
     Sleep                       1
-    Swipe                       536    1307    540    152  
+    Swipe                       536    1307    540    152 
+    Sleep                       1
+    Swipe                       536    1307    540    352
     Click Text                  Quer ser sócio do MegaGig?
     Get Saldo
 
@@ -203,8 +209,6 @@ Efetuar compra de divis dos Irmãos Piologo usando boleto
     Get Login
 
     Swipe                       564    1292    568    389
-    Sleep                       1
-    Swipe                       538    1443    559    403
     Click Text                  Irmãos Piologo - saiba mais (DEV)
     Get Boleto
     
@@ -212,8 +216,6 @@ Efetuar compra de divis dos Irmãos Piologo usando cartão de crédito
     Get Login
     
     Swipe                       564    1292    568    389
-    Sleep                       1
-    Swipe                       538    1443    559    403
     Click Text                  Irmãos Piologo - saiba mais (DEV)
     Get Cartao
 
@@ -221,10 +223,94 @@ Efetuar compra de divis dos Irmãos Piologo usando saldo em carteira
     Get Login
     
     Swipe                       564    1292    568    389
-    Sleep                       1
-    Swipe                       538    1443    559    403
     Click Text                  Irmãos Piologo - saiba mais (DEV)
     Get Saldo
+
+Efetuar compra de divis do UTC usando boleto
+    Get Login
+
+    Swipe                       564    1292    568    389
+    Sleep                       1
+    Swipe                       564    1292    568    589
+    Click Text                  Castro Brothers - saiba mais (DEV)
+    Get Boleto
+    
+Efetuar compra de divis do UTC usando cartão de crédito
+    Get Login
+    
+    Swipe                       564    1292    568    389
+    Sleep                       1
+    Swipe                       564    1292    568    589
+    Click Text                  Castro Brothers - saiba mais (DEV)
+    Get Cartao
+
+Efetuar compra de divis do UTC usando saldo em carteira
+    Get Login
+    
+    Swipe                       564    1292    568    389
+    Sleep                       1
+    Swipe                       564    1292    568    589
+    Click Text                  Castro Brothers - saiba mais (DEV)
+    Get Saldo
+
+Efetuar compra de divis do Street Bots usando boleto
+    Get Login
+
+    Click Text                  Rato Borrachudo - saiba mais (DEV)
+    Get Boleto
+    
+Efetuar compra de divis do Street Bots usando cartão de crédito
+    Get Login
+    
+    Click Text                  Rato Borrachudo - saiba mais (DEV)
+    Get Cartao
+
+Efetuar compra de divis do Street Bots usando saldo em carteira
+    Get Login
+    
+    Click Text                  Rato Borrachudo - saiba mais (DEV)
+    Get Saldo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Efetuar compra sem aceitar os termos
     Get Login
