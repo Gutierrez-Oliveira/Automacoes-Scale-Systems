@@ -1,6 +1,6 @@
 #language: pt
 
-    Funcionalidade: Tabela de preço
+    Funcionalidade: Tabela de Preço
 
         Cenário: Criar uma tabela de preço
 

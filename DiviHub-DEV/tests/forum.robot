@@ -8,10 +8,19 @@ Test Setup      Open Session
 Test Teardown   Close Session
 
 ***Test Cases***
-Consultar forum do projeto GAME ZERO
+Consultar forum do projeto MusicBlast
     Get Login
 
-    Click Text                          O novo game está chegando!
+    Swipe                               499    1616    540    102
+    Sleep                               1
+    Swipe                               529    1570    564    100
+    Sleep                               1
+    Swipe                               536    1307    540    232
+    Sleep                               1
+    Swipe                               536    1307    540    302
+    Sleep                               1
+    Swipe                               536    1307    540    152
+    Click Text                          Invista nos novos hits!
     Swipe                               521    1613    554    104
     Sleep                               1
     Swipe                               521    1603    564    108

@@ -11,14 +11,20 @@ Test Teardown   Close Session
 Cadastrar email do botão avise-me logado
     Get Login
 
-    Swipe                               505    1544    508    201
+    Swipe                               499    1616    540    102
     Sleep                               1
-    Swipe                               531    1585    546    473
+    Swipe                               529    1570    564    100
     Sleep                               1
-    Swipe                               564    1523    553    385
+    Swipe                               536    1307    540    232
     Sleep                               1
-    Swipe                               564    1523    553    185
-    Click Text                          Bem-vindo à nossa colônia
+    Swipe                               536    1307    540    102
+    Sleep                               1
+    Swipe                               536    1307    540    152 
+    Sleep                               1
+    Swipe                               536    1307    540    352
+    Sleep                               1
+    Swipe                               536    1307    540    152
+    Click Text                          Esportes
 
     Wait Until Page Contains            Sobre o projeto
     Click Text                          Avise-me quando lançar
@@ -33,14 +39,20 @@ Cadastrar email do botão avise-me logado
 Cadastrar email do botão avise-me sem logar
 
     Wait Until Page Contains            Login
-    Swipe                               505    1544    508    201
+    Swipe                               499    1616    540    102
     Sleep                               1
-    Swipe                               531    1585    546    473
+    Swipe                               529    1570    564    100
     Sleep                               1
-    Swipe                               564    1523    553    385
+    Swipe                               536    1307    540    232
     Sleep                               1
-    Swipe                               564    1523    553    185
-    Click Text                          Bem-vindo à nossa colônia
+    Swipe                               536    1307    540    102
+    Sleep                               1
+    Swipe                               536    1307    540    552 
+    Sleep                               1
+    Swipe                               536    1307    540    352
+    Sleep                               1
+    Swipe                               536    1307    540    152
+    Click Text                          Esportes
 
     Wait Until Page Contains            Sobre o projeto
     Click Text                          Avise-me quando lançar
@@ -55,14 +67,20 @@ Cadastrar email do botão avise-me sem logar
 Cadastrar email inválido no botão avise-me
 
     Wait Until Page Contains            Login
-    Swipe                               505    1544    508    201
+    Swipe                               499    1616    540    102
     Sleep                               1
-    Swipe                               531    1585    546    473
+    Swipe                               529    1570    564    100
     Sleep                               1
-    Swipe                               564    1523    553    385
+    Swipe                               536    1307    540    232
     Sleep                               1
-    Swipe                               564    1523    553    185
-    Click Text                          Bem-vindo à nossa colônia
+    Swipe                               536    1307    540    102
+    Sleep                               1
+    Swipe                               536    1307    540    552 
+    Sleep                               1
+    Swipe                               536    1307    540    352
+    Sleep                               1
+    Swipe                               536    1307    540    152
+    Click Text                          Esportes
 
     Wait Until Page Contains            Sobre o projeto
     Click Text                          Avise-me quando lançar

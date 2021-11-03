@@ -21,3 +21,17 @@ Consultar CPF já cadastrado
     Click Text                  Enviar
 
     Wait Until Page Contains    CPF já cadastrado
+
+Validar CPF inválido
+
+    Wait Until Page Contains    Login     
+    Click Text                  Login
+
+    Wait Until Page Contains    QUEM TEM DIVI SOMA
+    Click Text                  Clique aqui
+
+    Wait Until Page Contains    Cadastro
+    Input Text                  xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.EditText          05745785870
+    Click Text                  Enviar
+
+    Wait Until Page Contains    CPF inválido

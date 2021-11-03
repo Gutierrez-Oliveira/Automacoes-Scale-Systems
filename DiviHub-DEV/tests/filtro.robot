@@ -14,6 +14,7 @@ Filtrar projetos na categoria de Música
     Click Text                  Filtrar
     Wait until Page Contains    Selecione uma opção
 
+    Swipe                       544    1112    549    868
     Click Text                  Música
     Click Text                  Selecionar
     Wait Until Page Contains    Invista nos novos hits!
@@ -24,19 +25,52 @@ Filtrar projetos na categoria de Games
     Click Text                  Filtrar
     Wait until Page Contains    Selecione uma opção
 
+    Swipe                       544    1112    549    868
     Click Text                  Games
     Click Text                  Selecionar
-    Wait Until Page Contains    O novo game está chegando!
+    Wait Until Page Contains    Games
 
-Filtrar projetos na categoria de Arte
+Filtrar projetos na categoria de Animação
     Get Login
 
     Click Text                  Filtrar
     Wait until Page Contains    Selecione uma opção
 
-    Click Text                  Arte
+    Click Text                  Animação
     Click Text                  Selecionar
-    Wait Until Page Contains    Arte Digital
+    Wait Until Page Contains    Irmãos Piologo - saiba mais (DEV)
+
+Filtrar projetos na categoria de Humor
+    Get Login
+
+    Click Text                  Filtrar
+    Wait until Page Contains    Selecione uma opção
+
+    Click Text                  Humor
+    Click Text                  Selecionar
+    Wait Until Page Contains    Castro Brothers - saiba mais (DEV)
+
+Filtrar projetos na categoria de Esportes
+    Get Login
+
+    Click Text                  Filtrar
+    Wait until Page Contains    Selecione uma opção
+
+    Swipe                       544    1112    549    768
+    Click Text                  Esportes
+    Click Text                  Selecionar
+    Wait Until Page Contains    Esportes
+
+Filtrar projetos na categoria de Life Style
+    Get Login
+
+    Click Text                  Filtrar
+    Wait until Page Contains    Selecione uma opção
+
+    Swipe                       544    1112    549    768
+    Click Text                  Life Style
+    Click Text                  Selecionar
+    Wait Until Page Contains    Life Style
 
 Filtrar projetos na categoria de Eventos
     Get Login
@@ -46,7 +80,7 @@ Filtrar projetos na categoria de Eventos
 
     Click Text                  Eventos
     Click Text                  Selecionar
-    Wait Until Page Contains    Quer ser sócio do MegaGig?
+    Wait Until Page Contains    Eventos
 
 iltrar projetos sem filtro
     Get Login
@@ -56,4 +90,4 @@ iltrar projetos sem filtro
 
     Click Text                  Sem filtro
     Click Text                  Selecionar
-    Wait Until Page Contains    O novo game está chegando!
+    Wait Until Page Contains    Rato Borrachudo - saiba mais (DEV)

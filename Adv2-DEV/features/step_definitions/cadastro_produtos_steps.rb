@@ -1,6 +1,6 @@
 Quando('seleciono novo produto e preencho os campos') do
     find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/div/span[1]/span[2]").click
-    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/ul/li[4]/div/a/span[2]").click
+    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/ul/li[5]/div/a/span[2]").click
     click_button "Novo Produto"
 
     find(:xpath, "//*[@id='content-area']/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div/form/span/div[1]/div[1]/div[1]/div/div[2]/div/div/div/div/input").set "Teste"
@@ -18,7 +18,7 @@ end
   
 Quando('seleciono produtos e vejo seus detalhes') do
     find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/div/span[1]/span[2]").click
-    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/ul/li[4]/div/a/span[2]").click
+    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/ul/li[5]/div/a/span[2]").click
     find(:xpath, "//*[@id='content-area']/div[2]/div[2]/div/div[2]/div/div/div[2]/div[1]/div/div/div/header/div/input").set "cine"
     find(:xpath, "//*[@id='content-area']/div[2]/div[2]/div/div[2]/div/div/div[2]/div[1]/div/div/div/div/div[1]/table/tr[3]/td[6]/span/a/span").click
 end

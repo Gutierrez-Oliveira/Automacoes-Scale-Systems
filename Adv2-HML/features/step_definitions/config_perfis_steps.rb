@@ -1,6 +1,6 @@
 Quando('seleciono novo perfil') do
-    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[8]/div/span[1]").click
-    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[8]/ul/li[2]/div/a/span[2]").click
+    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[10]/div/span[1]").click
+    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[10]/ul/li[2]/div/a/span[2]").click
     click_button "Novo Perfil"
 
     find(:xpath, "//*[@id='tabs-demo']/div/div/div[1]/div/div/form/div[1]/div/div[2]/div/div/input").set "Teste novo perfil"
@@ -14,8 +14,8 @@ Então('valido que foi criado novo perfil') do
 end
   
 Quando('seleciono um perfil') do
-    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[8]/div/span[1]").click
-    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[8]/ul/li[2]/div/a/span[2]").click
+    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[10]/div/span[1]").click
+    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[10]/ul/li[2]/div/a/span[2]").click
     find(:xpath, "//*[@id='content-area']/div[2]/div[2]/div/div[2]/div/div[2]/div[1]/div/div/div/div/table/tr[1]/td[2]/span/a/span").click
 end
   

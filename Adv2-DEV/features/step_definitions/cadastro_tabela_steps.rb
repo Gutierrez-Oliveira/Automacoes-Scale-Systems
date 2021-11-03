@@ -1,7 +1,7 @@
  Quando('seleciono para criar nova tabela') do
     find(:xpath, "//*[@id='app']/div/div[1]/div/div").click
     find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/div/span[1]/span[2]").click
-    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/ul/li[5]/div/a/span[2]").click
+    find(:xpath, "//*[@id='app']/div/div[1]/div/div/div/section/div[2]/ul/li[6]/div/a/span[2]").click
     click_button "Nova Tabela"
     sleep 5
 end

@@ -29,5 +29,3 @@
             Dado que esteja logado "scaleadmin" e "$c4l3s1573m"
             Quando pesquiso um executivo
             Então valido que será exibido suas informações
-
-        Cenário: Teste
